@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.encoding" value="utf-8" />
+	<constant name="struts.custom.i18n.resources" value="msg"></constant>
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<constant name="struts.multipart.maxSize" value="20971520" />
+	<constant name="struts.multipart.saveDir" value="/tmp"></constant>
+	<constant name="struts.action.extension" value="action,"></constant>
+	<package name="strongme" extends="struts-default">
+	
+		<action name="uploadAction" class="org.walter.strong.action.UploadFile">
+			  <interceptor-ref name="fileUpload">  
+    			<param name ="allowedTypes">  
+    			     image/pjpeg,image/bmp,image/jpg,image/png,image/gif,image/jpeg
+				</param >  
+   				<param name="maximumSize">    
+          			2097152  
+    			</param>    
+   			 </interceptor-ref>  
+			 <interceptor-ref name ="fileUploadStack"/>  
+    		 <interceptor-ref name = "defaultStack"/>  
+			<result name="input">/page/upload_img.jsp</result>
+			<result name="success">/page/success.jsp</result>
+		</action>
+		 
+		
+		<action name="accessTokenAction" class="org.walter.strong.action.AccessTokenAction" method="accessToken">
+			<result name="success">/page/success.jsp</result>
+		</action>
+		
+		<action name="accessCodeAction" class="org.walter.strong.action.AccessTokenAction" method="accessCode">
+		</action>
+		
+		<action name="processDataAction" class="org.walter.strong.action.ProcessDataAction">
+			<result></result>
+		</action>
+		
+		<action name="OgnlAction" class="org.walter.strong.action.OgnlAction">
+			<result name="success">/page/ognl_success.jsp</result>
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,55 @@
+[
+	{
+		"id": 4,
+		"date": "2012-09-04",
+		"title": "受阻啊",
+		"content": [
+						"今儿开学第二天，天气晴朗，凉风兮兮啊，不幸的是又要开党员会议，更不幸的是外出证明受阻啊，这老师真是一点都不开明啊！",
+						"武汉这两天天气还不错，朗朗乾坤，气候正事宜人居住，只是大前天空调睡觉，觉得身体里面有了什么东西，觉的不舒服，就昨天让GZ帮我刮了个痧。",
+						"他们居然没见过~！~，我打呼啊，我们那都这么搞的，搞完包你神清气爽啊！结果给一哥们刮两下直接跑掉了，我还没用劲儿呢啊。",
+						"说说实习的事，我就觉着在我们学校要申请不上课去实习是个不靠谱的事儿，个个都害怕担责任，其实这里面就没什么要担责任的啊，只不过我们想要期末不挂科啊，平时少点几次名就好啊！",
+						"可是这老师是死活都不答应啊，非要我去找辅导员去开证明给他，辅导员是更不愿意的啊，亲，我去找她就是找死啊！要命啊！",
+						"希望这事情能早点结束，快点再次开始我的实习之旅啊！拜托各位领导老师给点力，拜托各位了啊！ Mna "
+				   ],
+		"author": "Walter",
+		"type": "essay",
+		"language": "CHINESE"
+	},
+	{
+		"id": 3,
+		"date": "2012-08-31 22:18",
+		"title": "武汉，你叫人情何以堪",
+		"content": [
+						"今天是8月的最后一天，武汉的酷热天气应该结束了吧，但是走出车门的一刹那，迎接我们的还是燥热的天气，这燥热的天气，注定让每个人都心情浮躁，不能静心。",
+						"刚到公交站，我们立马打消了公交的念头，直蹦去打的，可万万没想到的是武汉原来是这么的坑，黑的到处猖獗，的士司机都不如黑的，拒载乱要价，不打表，这个目标奔向一线城市的地方，不给人任何希望。",
+						"我想这人还是有很大的关系的吧，他们给人一种谁能比我势力的气势，到处虐杀你，我气气的说当时怎么傻到报到武汉这种城市来，报怨不能解决任何问题，我们无奈的挤上了公交，哗啦啦的回了学校……"
+				   ],
+		"author": "Walter",
+		"type" : "essay",
+		"language": "CHINESE"
+	},
+	{
+		"id": 2,
+		"date": "2012-08-28",
+		"title": "Proxy Problem",
+		"content": [
+					"I'am in China,and i really want to login on to Facebook,but i am blocked by Gov of China !",
+					"Does any one kown stable way to succes this?"
+				   ],
+		"author": "Walter",
+		"type" : "essay",
+		"language": "CHINESE"
+	},
+	{
+		"id": 1,
+		"date": "2012-08-29",
+		"title": "Bill Gates Funds",
+		"content": [
+					"(NaturalNews) Geo-engineers are finally coming out of the chemtrail closet, as reports are now emerging about deliberate plans in the works to dump untold tons of sulfate chemicals into the atmosphere for the purported purpose of fighting so-called global warming.",
+					"The U.K.'s Guardian and others are reporting that a multi-million dollar research fund, which just so happens to have been started and funded by Microsoft founder and vaccine enthusiast Bill Gates, is being used to fund the project. A large balloon hovering at 80,000 feet over Fort Sumner, New Mexico, will release the sulfates into the atmosphere within the next year."
+				   ],
+		"author": "Walter",
+		"type" : "essay",
+		"language": "CHINESE"
+	}
+]

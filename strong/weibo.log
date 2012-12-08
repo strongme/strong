@@ -1,0 +1,248 @@
+0    INFO  [2012-09-22 13:06:55]  code: 
+26   DEBUG [2012-09-22 13:06:55]  Request:
+27   DEBUG [2012-09-22 13:06:55]  POSThttps://api.weibo.com/oauth2/access_token
+0    INFO  [2012-09-22 13:32:47]  code: 
+8    DEBUG [2012-09-22 13:32:47]  Request:
+8    DEBUG [2012-09-22 13:32:47]  POSThttps://api.weibo.com/oauth2/access_token
+502  DEBUG [2012-09-22 13:32:48]  Response:
+502  DEBUG [2012-09-22 13:32:48]  https StatusCode:400
+503  DEBUG [2012-09-22 13:32:48]  Server:nginx/1.2.0
+503  DEBUG [2012-09-22 13:32:48]  Date:Sat, 22 Sep 2012 05:32:41 GMT
+503  DEBUG [2012-09-22 13:32:48]  Content-Length:162
+504  DEBUG [2012-09-22 13:32:48]  Connection:keep-alive
+504  DEBUG [2012-09-22 13:32:48]  Pragma:No-cache
+504  DEBUG [2012-09-22 13:32:48]  Cache-Control:no-cache
+505  DEBUG [2012-09-22 13:32:48]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+505  DEBUG [2012-09-22 13:32:48]  Api-Server-IP:10.75.25.114
+505  DEBUG [2012-09-22 13:32:48]  X-Varnish:1437481575
+505  DEBUG [2012-09-22 13:32:48]  Age:0
+506  DEBUG [2012-09-22 13:32:48]  Via:1.1 varnish
+526  DEBUG [2012-09-22 13:32:48]  {"error":"invalid_grant","error_code":21325,"request":"/oauth2/access_token","error_uri":"/oauth2/access_token","error_description":"invalid authorization code:"}
+
+0    DEBUG [2012-09-22 13:40:13]  Request:
+1    DEBUG [2012-09-22 13:40:13]  GET:https://api.weibo.com/2/friendships/friends.json
+63   DEBUG [2012-09-22 13:40:13]  Authorization: OAuth2 157965eb1fd52928e916c5bcf61c9ba3
+64   DEBUG [2012-09-22 13:40:13]  API-RemoteIP: 192.168.0.108
+592  DEBUG [2012-09-22 13:40:13]  Response:
+592  DEBUG [2012-09-22 13:40:13]  https StatusCode:403
+592  DEBUG [2012-09-22 13:40:13]  Server:nginx/1.2.0
+592  DEBUG [2012-09-22 13:40:13]  Date:Sat, 22 Sep 2012 05:40:06 GMT
+592  DEBUG [2012-09-22 13:40:13]  Content-Type:application/json;charset=UTF-8
+592  DEBUG [2012-09-22 13:40:13]  Content-Length:91
+592  DEBUG [2012-09-22 13:40:13]  Connection:keep-alive
+592  DEBUG [2012-09-22 13:40:13]  Api-Server-IP:10.75.5.63
+592  DEBUG [2012-09-22 13:40:13]  Vary:Accept-Encoding
+593  DEBUG [2012-09-22 13:40:13]  X-Varnish:1439427402
+593  DEBUG [2012-09-22 13:40:13]  Age:0
+593  DEBUG [2012-09-22 13:40:13]  Via:1.1 varnish
+598  DEBUG [2012-09-22 13:40:13]  {"error":"invalid_access_token","error_code":21332,"request":"/2/friendships/friends.json"}
+
+0    DEBUG [2012-09-22 13:40:22]  Request:
+1    DEBUG [2012-09-22 13:40:22]  GET:https://api.weibo.com/2/friendships/friends.json
+52   DEBUG [2012-09-22 13:40:22]  Authorization: OAuth2 157965eb1fd52928e916c5bcf61c9ba3
+52   DEBUG [2012-09-22 13:40:22]  API-RemoteIP: 192.168.0.108
+495  DEBUG [2012-09-22 13:40:22]  Response:
+495  DEBUG [2012-09-22 13:40:22]  https StatusCode:403
+495  DEBUG [2012-09-22 13:40:22]  Server:nginx/1.0.15
+496  DEBUG [2012-09-22 13:40:22]  Date:Sat, 22 Sep 2012 05:40:15 GMT
+496  DEBUG [2012-09-22 13:40:22]  Content-Type:application/json;charset=UTF-8
+496  DEBUG [2012-09-22 13:40:22]  Connection:keep-alive
+496  DEBUG [2012-09-22 13:40:22]  Api-Server-IP:10.75.5.62
+497  DEBUG [2012-09-22 13:40:22]  Vary:Accept-Encoding
+497  DEBUG [2012-09-22 13:40:22]  Content-Length:91
+497  DEBUG [2012-09-22 13:40:22]  X-Varnish:170041718
+497  DEBUG [2012-09-22 13:40:22]  Age:0
+497  DEBUG [2012-09-22 13:40:22]  Via:1.1 varnish
+509  DEBUG [2012-09-22 13:40:22]  {"error":"invalid_access_token","error_code":21332,"request":"/2/friendships/friends.json"}
+
+0    DEBUG [2012-09-22 13:42:36]  Request:
+1    DEBUG [2012-09-22 13:42:36]  GET:https://api.weibo.com/2/friendships/friends.json
+63   DEBUG [2012-09-22 13:42:36]  Authorization: OAuth2 d7ff570a4ad6480048f875b4d1089d99
+63   DEBUG [2012-09-22 13:42:36]  API-RemoteIP: 192.168.0.108
+547  DEBUG [2012-09-22 13:42:37]  Response:
+547  DEBUG [2012-09-22 13:42:37]  https StatusCode:403
+548  DEBUG [2012-09-22 13:42:37]  Server:nginx/1.2.0
+548  DEBUG [2012-09-22 13:42:37]  Date:Sat, 22 Sep 2012 05:42:30 GMT
+548  DEBUG [2012-09-22 13:42:37]  Content-Type:application/json;charset=UTF-8
+548  DEBUG [2012-09-22 13:42:37]  Content-Length:91
+548  DEBUG [2012-09-22 13:42:37]  Connection:keep-alive
+548  DEBUG [2012-09-22 13:42:37]  Api-Server-IP:10.75.24.203
+548  DEBUG [2012-09-22 13:42:37]  Vary:Accept-Encoding
+548  DEBUG [2012-09-22 13:42:37]  X-Varnish:1440062289
+548  DEBUG [2012-09-22 13:42:37]  Age:0
+549  DEBUG [2012-09-22 13:42:37]  Via:1.1 varnish
+581  DEBUG [2012-09-22 13:42:37]  {"error":"invalid_access_token","error_code":21332,"request":"/2/friendships/friends.json"}
+
+0    DEBUG [2012-09-22 13:45:26]  Request:
+1    DEBUG [2012-09-22 13:45:26]  GET:https://api.weibo.com/2/users/show.json
+59   DEBUG [2012-09-22 13:45:26]  Authorization: OAuth2 d7ff570a4ad6480048f875b4d1089d99
+60   DEBUG [2012-09-22 13:45:26]  API-RemoteIP: 192.168.0.108
+545  DEBUG [2012-09-22 13:45:26]  Response:
+545  DEBUG [2012-09-22 13:45:26]  https StatusCode:403
+546  DEBUG [2012-09-22 13:45:26]  Server:nginx/1.2.0
+546  DEBUG [2012-09-22 13:45:26]  Date:Sat, 22 Sep 2012 05:45:19 GMT
+546  DEBUG [2012-09-22 13:45:26]  Content-Type:application/json;charset=UTF-8
+546  DEBUG [2012-09-22 13:45:26]  Content-Length:82
+546  DEBUG [2012-09-22 13:45:26]  Connection:keep-alive
+546  DEBUG [2012-09-22 13:45:26]  Api-Server-IP:10.75.5.55
+546  DEBUG [2012-09-22 13:45:26]  Vary:Accept-Encoding
+546  DEBUG [2012-09-22 13:45:26]  X-Varnish:171377777
+546  DEBUG [2012-09-22 13:45:26]  Age:0
+546  DEBUG [2012-09-22 13:45:26]  Via:1.1 varnish
+551  DEBUG [2012-09-22 13:45:26]  {"error":"invalid_access_token","error_code":21332,"request":"/2/users/show.json"}
+
+0    INFO  [2012-09-22 13:46:12]  code: 
+8    DEBUG [2012-09-22 13:46:12]  Request:
+8    DEBUG [2012-09-22 13:46:12]  POSThttps://api.weibo.com/oauth2/access_token
+477  DEBUG [2012-09-22 13:46:13]  Response:
+477  DEBUG [2012-09-22 13:46:13]  https StatusCode:400
+478  DEBUG [2012-09-22 13:46:13]  Server:nginx/1.2.0
+478  DEBUG [2012-09-22 13:46:13]  Date:Sat, 22 Sep 2012 05:46:06 GMT
+478  DEBUG [2012-09-22 13:46:13]  Content-Length:162
+478  DEBUG [2012-09-22 13:46:13]  Connection:keep-alive
+479  DEBUG [2012-09-22 13:46:13]  Pragma:No-cache
+479  DEBUG [2012-09-22 13:46:13]  Cache-Control:no-cache
+479  DEBUG [2012-09-22 13:46:13]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+480  DEBUG [2012-09-22 13:46:13]  Api-Server-IP:10.75.25.115
+480  DEBUG [2012-09-22 13:46:13]  X-Varnish:2112047048
+480  DEBUG [2012-09-22 13:46:13]  Age:0
+480  DEBUG [2012-09-22 13:46:13]  Via:1.1 varnish
+488  DEBUG [2012-09-22 13:46:13]  {"error":"invalid_grant","error_code":21325,"request":"/oauth2/access_token","error_uri":"/oauth2/access_token","error_description":"invalid authorization code:"}
+
+0    DEBUG [2012-09-22 13:46:19]  Request:
+1    DEBUG [2012-09-22 13:46:19]  GET:https://api.weibo.com/2/users/show.json
+57   DEBUG [2012-09-22 13:46:19]  Authorization: OAuth2 d7ff570a4ad6480048f875b4d1089d99
+57   DEBUG [2012-09-22 13:46:19]  API-RemoteIP: 192.168.0.108
+474  DEBUG [2012-09-22 13:46:19]  Response:
+474  DEBUG [2012-09-22 13:46:19]  https StatusCode:403
+475  DEBUG [2012-09-22 13:46:19]  Server:nginx/1.2.0
+475  DEBUG [2012-09-22 13:46:19]  Date:Sat, 22 Sep 2012 05:46:12 GMT
+475  DEBUG [2012-09-22 13:46:19]  Content-Type:application/json;charset=UTF-8
+475  DEBUG [2012-09-22 13:46:19]  Content-Length:82
+475  DEBUG [2012-09-22 13:46:19]  Connection:keep-alive
+476  DEBUG [2012-09-22 13:46:19]  Api-Server-IP:10.75.0.174
+476  DEBUG [2012-09-22 13:46:19]  Vary:Accept-Encoding
+476  DEBUG [2012-09-22 13:46:19]  X-Varnish:1441043420
+478  DEBUG [2012-09-22 13:46:19]  Age:0
+478  DEBUG [2012-09-22 13:46:19]  Via:1.1 varnish
+490  DEBUG [2012-09-22 13:46:19]  {"error":"invalid_access_token","error_code":21332,"request":"/2/users/show.json"}
+
+0    DEBUG [2012-09-22 15:21:35]  Request:
+1    DEBUG [2012-09-22 15:21:35]  GET:https://api.weibo.com/2/users/show.json
+68   DEBUG [2012-09-22 15:21:35]  Authorization: OAuth2 d7ff570a4ad6480048f875b4d1089d99
+68   DEBUG [2012-09-22 15:21:35]  API-RemoteIP: 192.168.0.108
+471  DEBUG [2012-09-22 15:21:36]  Response:
+471  DEBUG [2012-09-22 15:21:36]  https StatusCode:403
+471  DEBUG [2012-09-22 15:21:36]  Server:nginx/1.2.0
+471  DEBUG [2012-09-22 15:21:36]  Date:Sat, 22 Sep 2012 07:21:29 GMT
+471  DEBUG [2012-09-22 15:21:36]  Content-Type:application/json;charset=UTF-8
+471  DEBUG [2012-09-22 15:21:36]  Content-Length:82
+472  DEBUG [2012-09-22 15:21:36]  Connection:keep-alive
+472  DEBUG [2012-09-22 15:21:36]  Api-Server-IP:10.75.5.62
+472  DEBUG [2012-09-22 15:21:36]  Vary:Accept-Encoding
+472  DEBUG [2012-09-22 15:21:36]  X-Varnish:2136718524
+472  DEBUG [2012-09-22 15:21:36]  Age:0
+472  DEBUG [2012-09-22 15:21:36]  Via:1.1 varnish
+477  DEBUG [2012-09-22 15:21:36]  {"error":"invalid_access_token","error_code":21332,"request":"/2/users/show.json"}
+
+0    DEBUG [2012-09-22 15:21:47]  Request:
+1    DEBUG [2012-09-22 15:21:47]  GET:https://api.weibo.com/2/users/show.json
+56   DEBUG [2012-09-22 15:21:47]  Authorization: OAuth2 d7ff570a4ad6480048f875b4d1089d99
+56   DEBUG [2012-09-22 15:21:47]  API-RemoteIP: 192.168.0.108
+460  DEBUG [2012-09-22 15:21:48]  Response:
+460  DEBUG [2012-09-22 15:21:48]  https StatusCode:403
+461  DEBUG [2012-09-22 15:21:48]  Server:nginx/1.2.0
+461  DEBUG [2012-09-22 15:21:48]  Date:Sat, 22 Sep 2012 07:21:41 GMT
+461  DEBUG [2012-09-22 15:21:48]  Content-Type:application/json;charset=UTF-8
+461  DEBUG [2012-09-22 15:21:48]  Content-Length:82
+462  DEBUG [2012-09-22 15:21:48]  Connection:keep-alive
+462  DEBUG [2012-09-22 15:21:48]  Api-Server-IP:10.75.24.204
+462  DEBUG [2012-09-22 15:21:48]  Vary:Accept-Encoding
+462  DEBUG [2012-09-22 15:21:48]  X-Varnish:196261513
+463  DEBUG [2012-09-22 15:21:48]  Age:0
+463  DEBUG [2012-09-22 15:21:48]  Via:1.1 varnish
+476  DEBUG [2012-09-22 15:21:48]  {"error":"invalid_access_token","error_code":21332,"request":"/2/users/show.json"}
+
+0    INFO  [2012-09-23 16:19:11]  code: null
+0    INFO  [2012-09-23 16:20:27]  code: b7d02b1f8745abe0a587fc8c2fd00440
+3    DEBUG [2012-09-23 16:20:27]  Request:
+3    DEBUG [2012-09-23 16:20:27]  POSThttps://api.weibo.com/oauth2/access_token
+516  DEBUG [2012-09-23 16:20:28]  Response:
+516  DEBUG [2012-09-23 16:20:28]  https StatusCode:200
+516  DEBUG [2012-09-23 16:20:28]  Server:nginx/1.2.0
+516  DEBUG [2012-09-23 16:20:28]  Date:Sun, 23 Sep 2012 08:20:28 GMT
+516  DEBUG [2012-09-23 16:20:28]  Content-Type:text/plain;charset=UTF-8
+516  DEBUG [2012-09-23 16:20:28]  Content-Length:111
+516  DEBUG [2012-09-23 16:20:28]  Connection:keep-alive
+516  DEBUG [2012-09-23 16:20:28]  Pragma:No-cache
+516  DEBUG [2012-09-23 16:20:28]  Cache-Control:no-cache
+516  DEBUG [2012-09-23 16:20:28]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+517  DEBUG [2012-09-23 16:20:28]  Api-Server-IP:10.75.25.114
+517  DEBUG [2012-09-23 16:20:28]  X-Varnish:1757305711
+517  DEBUG [2012-09-23 16:20:28]  Age:0
+517  DEBUG [2012-09-23 16:20:28]  Via:1.1 varnish
+520  DEBUG [2012-09-23 16:20:28]  {"access_token":"2.00JETv2BiqK3MBbf4c449e58dwukRC","remind_in":"129517","expires_in":129517,"uid":"1240132317"}
+
+0    INFO  [2012-09-23 16:25:20]  code: c3742bcba97a55e227c9bd4ed5d9e16e
+8    DEBUG [2012-09-23 16:25:20]  Request:
+8    DEBUG [2012-09-23 16:25:20]  POSThttps://api.weibo.com/oauth2/access_token
+491  DEBUG [2012-09-23 16:25:21]  Response:
+492  DEBUG [2012-09-23 16:25:21]  https StatusCode:200
+492  DEBUG [2012-09-23 16:25:21]  Server:nginx/1.2.0
+493  DEBUG [2012-09-23 16:25:21]  Date:Sun, 23 Sep 2012 08:25:21 GMT
+493  DEBUG [2012-09-23 16:25:21]  Content-Type:text/plain;charset=UTF-8
+493  DEBUG [2012-09-23 16:25:21]  Content-Length:111
+493  DEBUG [2012-09-23 16:25:21]  Connection:keep-alive
+494  DEBUG [2012-09-23 16:25:21]  Pragma:No-cache
+494  DEBUG [2012-09-23 16:25:21]  Cache-Control:no-cache
+494  DEBUG [2012-09-23 16:25:21]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+495  DEBUG [2012-09-23 16:25:21]  Api-Server-IP:10.75.25.114
+495  DEBUG [2012-09-23 16:25:21]  X-Varnish:488992576
+495  DEBUG [2012-09-23 16:25:21]  Age:0
+495  DEBUG [2012-09-23 16:25:21]  Via:1.1 varnish
+503  DEBUG [2012-09-23 16:25:21]  {"access_token":"2.00JETv2BiqK3MBbf4c449e58dwukRC","remind_in":"129517","expires_in":129517,"uid":"1240132317"}
+
+0    INFO  [2012-09-23 21:02:03]  code: 
+38   DEBUG [2012-09-23 21:02:03]  Request:
+39   DEBUG [2012-09-23 21:02:03]  POSThttps://api.weibo.com/oauth2/access_token
+1453 DEBUG [2012-09-23 21:02:04]  Response:
+1454 DEBUG [2012-09-23 21:02:04]  https StatusCode:400
+1454 DEBUG [2012-09-23 21:02:04]  Server:nginx/1.2.0
+1454 DEBUG [2012-09-23 21:02:04]  Date:Sun, 23 Sep 2012 13:02:04 GMT
+1455 DEBUG [2012-09-23 21:02:04]  Content-Length:162
+1455 DEBUG [2012-09-23 21:02:04]  Connection:keep-alive
+1455 DEBUG [2012-09-23 21:02:04]  Pragma:No-cache
+1455 DEBUG [2012-09-23 21:02:04]  Cache-Control:no-cache
+1456 DEBUG [2012-09-23 21:02:04]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+1456 DEBUG [2012-09-23 21:02:04]  Api-Server-IP:10.75.25.115
+1456 DEBUG [2012-09-23 21:02:04]  X-Varnish:2497357123
+1456 DEBUG [2012-09-23 21:02:04]  Age:0
+1456 DEBUG [2012-09-23 21:02:04]  Via:1.1 varnish
+1495 DEBUG [2012-09-23 21:02:04]  {"error":"invalid_grant","error_code":21325,"request":"/oauth2/access_token","error_uri":"/oauth2/access_token","error_description":"invalid authorization code:"}
+
+0    INFO  [2012-09-23 21:20:30]  code: 97cfaf24579ecbc0868b088ddb314f90
+8    DEBUG [2012-09-23 21:20:30]  Request:
+8    DEBUG [2012-09-23 21:20:30]  POSThttps://api.weibo.com/oauth2/access_token
+501  DEBUG [2012-09-23 21:20:31]  Response:
+501  DEBUG [2012-09-23 21:20:31]  https StatusCode:400
+501  DEBUG [2012-09-23 21:20:31]  Server:nginx/1.2.0
+501  DEBUG [2012-09-23 21:20:31]  Date:Sun, 23 Sep 2012 13:20:31 GMT
+501  DEBUG [2012-09-23 21:20:31]  Content-Length:194
+501  DEBUG [2012-09-23 21:20:31]  Connection:keep-alive
+501  DEBUG [2012-09-23 21:20:31]  Pragma:No-cache
+502  DEBUG [2012-09-23 21:20:31]  Cache-Control:no-cache
+502  DEBUG [2012-09-23 21:20:31]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+502  DEBUG [2012-09-23 21:20:31]  Api-Server-IP:10.75.25.114
+502  DEBUG [2012-09-23 21:20:31]  X-Varnish:2502519588
+502  DEBUG [2012-09-23 21:20:31]  Age:0
+502  DEBUG [2012-09-23 21:20:31]  Via:1.1 varnish
+505  DEBUG [2012-09-23 21:20:31]  {"error":"invalid_grant","error_code":21325,"request":"/oauth2/access_token","error_uri":"/oauth2/access_token","error_description":"invalid authorization code:97cfaf24579ecbc0868b088ddb314f90"}
+
+0    INFO  [2012-09-23 22:21:20]  code: null
+28   INFO  [2012-09-23 22:21:20]  code: null
+1520 DEBUG [2012-09-23 22:21:22]  Request:
+1521 DEBUG [2012-09-23 22:21:22]  POSThttps://api.weibo.com/oauth2/access_token
+1470 DEBUG [2012-09-23 22:21:22]  Request:
+1471 DEBUG [2012-09-23 22:21:22]  POSThttps://api.weibo.com/oauth2/access_token
+1549 DEBUG [2012-09-23 22:21:22]  Request:
+1550 DEBUG [2012-09-23 22:21:22]  POSThttps://api.weibo.com/oauth2/access_token
